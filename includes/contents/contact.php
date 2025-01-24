@@ -1,4 +1,6 @@
 <div id="contact" class="tab-content hidden">
+<div class="p-6 pt-10 lg:pt-0 lg:max-w-[900px] max-w-[100vw]">
+
     <h3 class="text-3xl font-bold">Contact Me</h3>
     <p>Feel free to reach out via LinkedIn or GitHub.</p>
     
@@ -17,4 +19,5 @@
         </div>
         <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded">Send</button>
     </form>
+    </div>
 </div>

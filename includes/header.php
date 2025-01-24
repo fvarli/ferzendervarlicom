@@ -50,4 +50,5 @@
 
 <style>
     .hidden { display: none; }
+    .bg-primary { background-color: #000000; }
 </style>

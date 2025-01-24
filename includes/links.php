@@ -7,6 +7,9 @@
             <a href="#projects" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Projects</a>
         </li>
         <li>
+            <a href="#resume" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Resume</a>
+        </li>
+        <li>
             <a href="#contact" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Contact</a>
         </li>
     </ul>
