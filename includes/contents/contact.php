@@ -3,14 +3,13 @@
         <!-- Profile Section -->
         <div class="mb-8 text-center">
             <h2 class="text-4xl font-bold text-gray-800">Contact Me</h2>
-            <p class="text-lg text-gray-600 mt-2">
+            <p class="text-lg text-gray-600 mt-8">
                 Have questions or suggestions? I'd love to hear from you! Feel free to drop me a message, and I'll get back to you at the earliest. Let's connect and make great things happen together.
             </p>
         </div>
 
         <!-- Contact Form -->
         <div>
-            <h3 class="text-2xl font-semibold text-gray-700 text-center mb-10">Contact Form</h3>
             <form class="space-y-6" action="send_email.php" method="POST">
                 <div>
                     <label class="block text-gray-700 font-medium mb-2">Name</label>
