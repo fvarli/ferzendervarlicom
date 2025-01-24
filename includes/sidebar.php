@@ -1,4 +1,4 @@
-<aside class="hidden lg:flex w-64 bg-gray-800 text-white flex-col">
+<aside class="hidden lg:flex w-64 bg-gray-800 text-white flex-col flex-shrink-0 fixed h-full">
     <!-- Header -->
     <div class="p-4">
         <a href="/">
