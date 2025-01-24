@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="lofi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +17,10 @@
         <aside class="hidden lg:flex w-64 bg-gray-800 text-white flex-col">
             <!-- Header -->
             <div class="p-4">
-                <h1 class="text-2xl font-bold text-center">Ferzender Varli</h1>
-                <h2 class="text-base font-semibold text-center">Senior Software Developer</h2>
+                <a href="/">
+                    <h1 class="text-2xl font-bold text-center">Ferzender Varli</h1>
+                    <h2 class="text-base font-semibold text-center">Senior Software Developer</h2>
+                </a>
             </div>
 
             <!-- Links -->
@@ -151,6 +153,15 @@
                         <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded">Send</button>
                     </form>
                 </div>
+
+                <footer class="text-center p-4 fixed bottom-0 left-0 lg:left-64 right-0">
+                    <div class="pb-2">
+                        © <?=date('Y')?> Ferzender Varli. | All rights reserved.
+                    </div>
+                    <div class="inline opacity-75">
+                        Developed by <a href="https://github.com/fvarli" target="_blank" rel="noopener noreferrer" class="font-bold">fvarli</a> 
+                    </div>
+                </footer>
             </main>
         </div>
     </div>
