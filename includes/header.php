@@ -28,21 +28,23 @@
   "@type": "Person",
   "name": "Ferzender Varli",
   "jobTitle": "Senior Software Developer",
-  "url": "https://www.ferzendervarli.com",
+  "url": "https://www.ferzendervarli.com"
 }
 </script>
 
 <!-- Google Analytics -->
 <script>
     if (window.location.hostname !== 'localhost') {
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-196NEVSCLN"></script>
-        <script>
+        // Google tag (gtag.js)
+        var gtagScript = document.createElement('script');
+        gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-196NEVSCLN";
+        gtagScript.async = true;
+        document.head.appendChild(gtagScript);
+
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-196NEVSCLN');
-        </script>
     }
 </script>
 
