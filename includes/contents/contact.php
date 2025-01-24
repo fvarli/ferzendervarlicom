@@ -1,36 +1,52 @@
-<div id="contact" class="tab-content hidden">
-    <div class="p-6 pt-10 pb-16 lg:pt-0 lg:max-w-[900px] max-w-[100vw]">
+<div id="contact" class="tab-content hidden flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="p-8 lg:p-12 bg-white shadow-lg rounded-lg lg:max-w-[800px] max-w-[90vw]">
         <!-- Profile Section -->
-        <div class="mb-5">
-            <div class="text-3xl w-full font-bold">Contact Me</div>
+        <div class="mb-8 text-center">
+            <h2 class="text-4xl font-bold text-gray-800">Contact Me</h2>
+            <p class="text-lg text-gray-600 mt-2">
+                Have questions or suggestions? I'd love to hear from you! Feel free to drop me a message, and I'll get back to you at the earliest. Let's connect and make great things happen together.
+            </p>
         </div>
 
-        <div class="mb-10 text-justify">
-            <p>Have questions or suggestions? I'd love to hear from you! Feel free to drop me a message, and I'll get back to you at the earliest. Let's connect and make great things happen together.</p>
-        </div>
-
-        <div class="mb-5">
-            <div class="text-2xl w-full font-bold">Contact Form</div>
-        </div>
-        <div class="time-line-container grid gap-4 mb-10">
-            <div class="flex">
-            <form class="mt-4 space-y-4" style="width: -webkit-fill-available;" action="send_email.php" method="POST">
+        <!-- Contact Form -->
         <div>
-            <label class="block text-gray-700">Name</label>
-            <input type="text" name="name" class="w-full px-4 py-2 border rounded" required>
+            <h3 class="text-2xl font-semibold text-gray-700 text-center mb-10">Contact Form</h3>
+            <form class="space-y-6" action="send_email.php" method="POST">
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Name</label>
+                    <input 
+                        type="text" 
+                        name="name" 
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" 
+                        placeholder="Your Name" 
+                        required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Email</label>
+                    <input 
+                        type="email" 
+                        name="email" 
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" 
+                        placeholder="Your Email Address" 
+                        required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Message</label>
+                    <textarea 
+                        name="message" 
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" 
+                        placeholder="Write your message..." 
+                        rows="4" 
+                        required></textarea>
+                </div>
+                <div class="text-center">
+                    <button 
+                        type="submit" 
+                        class="px-6 py-3 bg-blue-500 text-white font-medium rounded-lg shadow hover:bg-blue-600 transition duration-300">
+                        Send Message
+                    </button>
+                </div>
+            </form>
         </div>
-        <div>
-            <label class="block text-gray-700">Email</label>
-            <input type="email" name="email" class="w-full px-4 py-2 border rounded" required>
-        </div>
-        <div>
-            <label class="block text-gray-700">Message</label>
-            <textarea name="message" class="w-full px-4 py-2 border rounded" rows="4" required></textarea>
-        </div>
-        <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded">Send</button>
-    </form>
-            </div>
-        </div>
-
     </div>
 </div>
