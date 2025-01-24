@@ -75,6 +75,11 @@
         closeMenu.addEventListener('click', () => {
             mobileMenu.classList.add('hidden');
         });
+
+        const user = "contact";
+        const domain = "ferzendervarli.com";
+        const emailElement = document.getElementById("email");
+        emailElement.innerHTML = `<a href="mailto:${user}@${domain}">${user}[@]${domain}</a>`;
     </script>
 </body>
 </html>
