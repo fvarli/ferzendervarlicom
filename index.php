@@ -22,7 +22,27 @@
     </div>
 
     <script>
+        const menuButton = document.getElementById('menuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeMenu = document.getElementById('closeMenu');
         const links = document.querySelectorAll('#navLinks li a');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.remove('hidden');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+
+        // Add event listener to each link to close the menu when clicked
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');  // Close the menu when any link is clicked
+                links.forEach(l => l.classList.remove('bg-gray-500')); // Reset the active class on all links
+                link.classList.add('bg-gray-500'); // Add the active class to the clicked link
+            });
+        });
 
         // Set active link on page load
         window.addEventListener('load', () => {
@@ -36,19 +56,11 @@
             });
         });
 
-        // Add event listener to each link
-        links.forEach(link => {
-            link.addEventListener('click', function() {
-                links.forEach(l => l.classList.remove('bg-gray-500')); // Remove active class from all links
-                this.classList.add('bg-gray-500'); // Add active class to clicked link
-            });
-        });
-
         // Function to handle tab switching
         function handleHashChange() {
             const hash = window.location.hash || "#home"; // Default to #home
             const tabs = document.querySelectorAll(".tab-content");
-            
+
             // Hide all tabs and show the active one
             tabs.forEach(tab => {
                 tab.classList.add("hidden");
@@ -58,23 +70,7 @@
             });
         }
 
-        // Initialize on page load
-        window.addEventListener("DOMContentLoaded", handleHashChange);
-
-        // Update tabs on hash change
-        window.addEventListener("hashchange", handleHashChange);
-    
-        const menuButton = document.getElementById('menuButton');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const closeMenu = document.getElementById('closeMenu');
-
-        menuButton.addEventListener('click', () => {
-            mobileMenu.classList.remove('hidden');
-        });
-    
-        closeMenu.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-        });
+        window.addEventListener('hashchange', handleHashChange);
 
         const user = "contact";
         const domain = "ferzendervarli.com";
