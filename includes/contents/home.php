@@ -8,13 +8,13 @@
             <p class="mt-4 text-lg sm:text-xl text-gray-500">
                 Tech Enthusiast | Senior Software Developer & Mechatronics Engineer | Crafting Innovation Through Code and Curiosity
             </p>
-            <p class="mt-6 text-gray-700 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto  p-6 rounded-lg shadow-md max-w-4xl mx-auto">
+            <p class="bg-white mt-6 text-gray-700 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto  p-6 rounded-lg shadow-md max-w-4xl mx-auto rounded-lg hover:shadow-lg transition">
                 I'm passionate about building user-focused applications, unraveling tech mysteries, and exploring the limitless possibilities of software development. Beyond tech, I find joy in creating culinary delights, exploring new cultures, and immersing myself in sci-fi adventures. 🌌
             </p>
         </div>
-
+        
         <!-- Social Links Section -->
-        <div class="text-center mb-12 p-6 rounded-lg shadow-md max-w-4xl mx-auto">
+        <div class="bg-white text-center mb-12 p-6 rounded-lg shadow-md max-w-4xl mx-auto hover:shadow-lg transition">
             <p class="text-gray-700 text-base sm:text-lg">
                 Let's connect and create something amazing together:
             </p>
@@ -25,13 +25,13 @@
                 <a href="#contact" class="text-green-600 hover:underline text-sm sm:text-base" id="homeContact">Contact Me</a>
             </div>
         </div>
-
+        
         <!-- About Me Section -->
         <div class="mb-12">
             <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">
                 A Little About Me
             </h2>
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md max-w-4xl mx-auto">
+            <div class="bg-white p-6 rounded-lg shadow-md max-w-4xl mx-auto hover:shadow-lg transition">
                 <p class="text-gray-700 leading-relaxed text-base sm:text-lg">
                     With over 6 years in software development, I specialize in crafting robust web applications using modern frameworks. My journey spans creating seamless user experiences, tackling complex problems, and continuously evolving in the dynamic tech landscape.
                 </p>

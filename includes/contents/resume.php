@@ -3,7 +3,7 @@
         <!-- About Me Section -->
         <div class="mb-12 max-w-5xl mx-auto">
             <h3 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">About Me</h3>
-            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                 <p class="text-gray-700 text-base sm:text-lg leading-relaxed">
                     With over 6 years of software development experience and a degree in Mechatronic Engineering, I specialize in backend technologies like PHP (Laravel, CodeIgniter) and Node.js, JavaScript frameworks such as React and Vue.js, and database management with MySQL and MongoDB. I also have extensive experience in customizing CMS platforms like WordPress.
                 </p>
@@ -52,7 +52,7 @@
             <h3 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">Experience</h3>
             <div class="space-y-8">
                 <!-- Experience Item -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                     <h3 class="text-lg font-semibold text-gray-800">Senior Software Developer</h3>
                     <p class="text-sm text-blue-500 font-bold">TechMonolith | December 2023 - January 2025</p>
                     <ul class="mt-4 list-disc pl-5 text-gray-700">
@@ -67,7 +67,7 @@
                 </div>
 
                 <!-- Experience Item -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                     <h3 class="text-lg font-semibold text-gray-800">Senior Software Developer</h3>
                     <p class="text-sm text-blue-500 font-bold">Massive Bio | January 2023 - December 2023</p>
                     <ul class="mt-4 list-disc pl-5 text-gray-700">
@@ -80,7 +80,7 @@
                 </div>
 
                 <!-- Experience Item -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                     <h4 class="text-lg font-semibold text-gray-800">Software Developer</h4>
                     <p class="text-sm text-blue-500 font-bold">Massive Bio | April 2019 - January 2023</p>
                     <ul class="mt-4 list-disc pl-5 text-gray-700">
@@ -98,7 +98,7 @@
         <!-- Education Section -->
         <div class="mb-12 max-w-5xl mx-auto">
             <h4 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">Education</h4>
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                 <h4 class="text-lg font-semibold text-gray-800">Bachelor of Mechatronics Engineering</h4>
                 <p class="text-sm text-blue-500 font-bold">Karabük University, Turkey | 2019</p>
                 <ul class="mt-4 list-disc pl-5 text-gray-700">
@@ -110,7 +110,7 @@
         <!-- References Section -->
         <div class="mb-12 max-w-5xl mx-auto">
             <h4 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">References</h4>
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                 <p class="text-gray-700">References available upon request.</p>
             </div>
         </div>
