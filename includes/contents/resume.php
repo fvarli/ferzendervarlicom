@@ -43,7 +43,7 @@
 
                 <div class="experience__data bd-grid px-5">
                     <h3 class="font-semibold mb-1">Senior Software Developer</h3>
-                    <span class="font-bold text-sm">From December 2023 to January 2025 at TechMonolith, Gebze, Kocaeli, Turkey</span>
+                    <span class="font-bold text-sm"><span style="color: #0000ff">TechMonolith</span> December 2023 - January 2025 | Gebze, Kocaeli, Turkey</span>
                         <ul class="my-2 list-disc mx-6 text-justify">
                         <li class="pt-2">Led the development of innovative, client-focused solutions, leveraging modern technologies and trends to enhance scalability and user experience.</li>
                         <li class="pt-2">Actively contributed to development, delivering high-quality, cutting-edge products with Node.js, Express.js, Context API, and Redux.</li>
@@ -64,7 +64,7 @@
 
                 <div class="experience__data bd-grid px-5">
                     <h3 class="font-semibold mb-1">Senior Software Developer</h3>
-                    <span class="font-bold text-sm">From January 2023 to December 2023 at Massive Bio, Ataşehir, İstanbul, Turkey</span>
+                    <span class="font-bold text-sm"><span style="color: #0000ff">Massive Bio</span> January 2023 - December 2023 | Ataşehir, İstanbul, Turkey</span>
                     <ul class="my-2 list-disc mx-6 text-justify">
                         <li class="pt-2">Designed, developed, and implemented a variety of scalable and high-performance web-based products using PHP, Laravel, JavaScript, and RESTful API.</li>
                         <li class="pt-2">Spearheaded the creation of efficient and reusable components to accelerate development cycles across multiple projects.</li>
@@ -84,7 +84,7 @@
 
                 <div class="experience__data bd-grid px-5">
                     <h3 class="font-semibold mb-1">Software Developer</h3>
-                    <span class="font-bold text-sm">From April 2019 to Software 2023 at Massive Bio, Ataşehir, İstanbul, Turkey</span>
+                    <span class="font-bold text-sm"><span style="color: #0000ff">Massive Bio</span> April 2019 - January 2023 | Ataşehir, İstanbul, Turkey</span>
                     <ul class="my-2 list-disc mx-6 text-justify">
                         <li class="pt-2">Delivered robust web-based applications using PHP, CodeIgniter, Laravel, WordPress, and custom APIs for seamless integrations.</li>
                         <li class="pt-2">Designed intuitive, responsive user interfaces using HTML, CSS, JavaScript, and jQuery, ensuring a seamless user experience across devices.</li>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="experience__data bd-grid px-5">
                     <h3 class="font-semibold mb-1">Bachelor of Mechatronics Engineering</h3>
-                    <span class="font-light text-sm">2019 at Karabük University, Karabük, Turkey</span>
+                    <span class="font-bold text-sm">Karabük University, Karabük, Turkey | 2019</span>
                         <ul class="my-2 list-disc mx-6 text-justify">
                             <li class="pt-2">Faculty Of Mechanical Engineering (Erasmus+ Exchange Programme), Ljubljana University / Ljubljana - Slovenia</li>
                         </ul>
