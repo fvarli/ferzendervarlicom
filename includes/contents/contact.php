@@ -9,7 +9,7 @@
         </div>
 
         <!-- Contact Form -->
-        <form class="space-y-6" action="send_email.php" method="POST">
+        <form id="contactForm" class="space-y-6">
             <div>
                 <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
                 <input 
@@ -52,11 +52,13 @@
             </div>
             <div class="text-center">
                 <button 
-                    type="submit" 
+                    type="submit"
+                    id="submitButton"
                     class="px-6 py-3 bg-blue-500 text-white font-medium rounded-lg shadow hover:bg-blue-600 transition duration-300">
                     Send Message
                 </button>
             </div>
+            <div id="responseMessage" class="mt-4"></div>
         </form>
     </div>
 </div>

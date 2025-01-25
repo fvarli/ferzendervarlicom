@@ -22,6 +22,8 @@
 <meta name="twitter:title" content="Ferzender Varli | Full Stack - Senior Software Developer">
 <meta name="twitter:description" content="Ferzender Varli | Senior Full Stack - Software Developer with expertise in PHP, Laravel, WordPress, MySQL, MongoDB, Express, React, Node.js, and more.">
 
+<link rel="stylesheet" href="/assets/css/custom.css">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -47,7 +49,3 @@
         gtag('config', 'G-196NEVSCLN');
     }
 </script>
-
-<style>
-    .hidden { display: none; }
-</style>
