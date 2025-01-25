@@ -14,6 +14,7 @@
 <!-- Open Graph -->
 <meta property="og:title" content="Ferzender Varli | Full Stack - Senior Software Developer">
 <meta property="og:description" content="Ferzender Varli | Full Stack - Senior Software Developer with expertise in PHP, Laravel, WordPress, MySQL, MongoDB, Express, React, Node.js, and more.">
+<meta property="og:image" content="/assets/images/og-image-ferzender-varli.jpg">
 <meta property="og:url" content="https://www.ferzendervarli.com/">
 <meta property="og:type" content="website">
 
@@ -21,6 +22,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ferzender Varli | Full Stack - Senior Software Developer">
 <meta name="twitter:description" content="Ferzender Varli | Senior Full Stack - Software Developer with expertise in PHP, Laravel, WordPress, MySQL, MongoDB, Express, React, Node.js, and more.">
+<meta name="twitter:image" content="/assets/images/og-image-ferzender-varli.jpg">
 
 <link rel="stylesheet" href="/assets/css/custom.css">
 
