@@ -5,8 +5,8 @@
             <h2 class="text-4xl sm:text-5xl font-bold text-blue-600 leading-tight">
                 Hey, I'm Ferzender!
             </h2>
-            <p class="mt-4 text-lg sm:text-xl text-gray-500">
-                Tech Enthusiast | Senior Software Developer & Mechatronics Engineer | Crafting Innovation Through Code and Curiosity
+            <p class="mt-4 text-lg sm:text-xl text-gray-500 max-w-4xl mx-auto">
+                Tech Enthusiast | Senior Software Developer | Crafting Innovation Through Code and Curiosity
             </p>
             <p class="bg-white mt-6 text-gray-700 text-base sm:text-lg leading-relaxed max-w-3xl mx-auto  p-6 rounded-lg shadow-md max-w-4xl mx-auto rounded-lg hover:shadow-lg transition">
                 I'm passionate about building user-focused applications, unraveling tech mysteries, and exploring the limitless possibilities of software development. Beyond tech, I find joy in creating culinary delights, exploring new cultures, and immersing myself in sci-fi adventures. 🌌
@@ -15,19 +15,31 @@
         
         <!-- Social Links Section -->
         <div class="bg-white text-center mb-12 p-6 rounded-lg shadow-md max-w-4xl mx-auto hover:shadow-lg transition">
-            <p class="text-gray-700 text-base sm:text-lg">
-                Let's connect and create something amazing together:
+            <p class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+                Let's connect and create something amazing together!
             </p>
-            <div class="mt-4 flex flex-wrap justify-center gap-4">
-                <a href="https://x.com/f_varli" class="text-blue-500 hover:underline text-sm sm:text-base" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
-                <a href="https://www.linkedin.com/in/fvarli/" class="text-blue-600 hover:underline text-sm sm:text-base" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://github.com/fvarli" class="text-gray-800 hover:underline text-sm sm:text-base" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="#contact" class="text-green-600 hover:underline text-sm sm:text-base" id="homeContact">Contact Me</a>
+            <p class="text-gray-700 text-base sm:text-lg mb-6">
+                Reach out to me on your favorite platform:
+            </p>
+
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="flex" id="contactHomeEmail"></span>
+                <a href="https://www.linkedin.com/in/fvarli/" class="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-indigo-700 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/fvarli" class="bg-gray-700 text-white px-4 py-2 rounded-lg shadow-md hover:bg-gray-800 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            </div>
+            <div class="mt-6">
+                <p class="text-gray-500 text-xs sm:text-sm">
+                    Or visit <a href="#projects" class="text-blue-600">my portfolio</a> for more details about my work and experience.
+                </p>
             </div>
         </div>
         
         <!-- About Me Section -->
-        <div class="mb-12">
+        <div class="mb-12 text-center">
             <h2 class="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">
                 A Little About Me
             </h2>
@@ -39,11 +51,11 @@
         </div>
 
         <!-- What I Love Section -->
-        <div>
+        <div class="text-center max-w-4xl mx-auto">
             <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-gray-800">
                 What I Love
             </h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition">
                     <div class="text-blue-500 text-5xl mb-4">🌊</div>
                     <div class="text-lg font-semibold text-gray-800 mb-2">Swimming</div>

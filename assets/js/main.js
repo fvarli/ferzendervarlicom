@@ -1,13 +1,7 @@
-const homeContact = document.getElementById('homeContact');
 const menuButton = document.getElementById('menuButton');
 const mobileMenu = document.getElementById('mobileMenu');
 const closeMenu = document.getElementById('closeMenu');
 const links = document.querySelectorAll('#navLinks li a');
-
-homeContact.addEventListener('click', () => {
-    document.querySelector("#navLinks > .home > a").classList.remove('bg-gray-500');
-    document.querySelector("#navLinks > .contact > a").classList.add('bg-gray-500');
-});
 
 menuButton.addEventListener('click', () => {
     mobileMenu.classList.remove('hidden');
@@ -60,36 +54,5 @@ const user = "contact";
 const domain = "ferzendervarli.com";
 const emailElement = document.getElementById("contactEmail");
 emailElement.innerHTML = `<a href="mailto:${user}@${domain}">${user}[@]${domain}</a>`;
-
-document.getElementById('contactForm').addEventListener('submit', function (e) {
-e.preventDefault(); // Prevent page reload
-
-const formData = new FormData(this);
-const responseMessage = document.getElementById('responseMessage');
-const submitButton = document.getElementById('submitButton');
-
-// Disable the button and add loading spinner
-submitButton.disabled = true;
-submitButton.innerHTML = `<span class="loader"></span> Sending...`;
-
-    fetch('http://localhost/includes/contents/send_email.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.text())
-    .then(data => {
-        // Load the success message
-        responseMessage.innerHTML = `<p class="text-green-600">${data}</p>`;
-    })
-    .catch(error => {
-        // Load the error message
-        responseMessage.innerHTML = `<p class="text-red-600">An error occurred: ${error.message}</p>`;
-    })
-    .finally(() => {
-        submitButton.disabled = false;
-        submitButton.innerHTML = 'Send Message';
-    setTimeout(() => {
-        responseMessage.innerHTML = ''; // Clear message after 5 seconds
-    }, 5000);
-});
-});
+const emailHomeElement = document.getElementById("contactHomeEmail");
+emailHomeElement.innerHTML = `<a href="mailto:${user}@${domain}" class="bg-teal-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-teal-600 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">Email Me</a>`;

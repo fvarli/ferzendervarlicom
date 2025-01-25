@@ -9,9 +9,6 @@
         <li class="resume">
             <a href="#resume" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Resume</a>
         </li>
-        <li class="contact">
-            <a href="#contact" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Contact</a>
-        </li>
     </ul>
 
     <!-- Social Media Links -->
