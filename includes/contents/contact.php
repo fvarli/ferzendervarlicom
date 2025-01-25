@@ -1,5 +1,5 @@
 <div id="contact" class="tab-content hidden flex items-center justify-center min-h-screen bg-gray-100">
-    <div class="p-8 lg:p-12 bg-white shadow-lg rounded-lg lg:max-w-[800px] max-w-[90vw]">
+    <div class="p-8 lg:p-12 bg-white mb-24 shadow-lg rounded-lg lg:max-w-[800px] max-w-[90vw]">
         <!-- Profile Section -->
         <div class="mb-8 text-center">
             <h2 class="text-4xl font-bold text-gray-800">Contact Me</h2>
