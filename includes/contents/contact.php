@@ -31,6 +31,16 @@
                     required>
             </div>
             <div>
+                <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                <input 
+                    type="text" 
+                    id="subject" 
+                    name="subject" 
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" 
+                    placeholder="Subject" 
+                    required>
+            </div>
+            <div>
                 <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
                 <textarea 
                     id="message" 
