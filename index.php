@@ -82,7 +82,7 @@
 
     const user = "contact";
     const domain = "ferzendervarli.com";
-    const emailElement = document.getElementById("email");
+    const emailElement = document.getElementById("contactEmail");
     emailElement.innerHTML = `<a href="mailto:${user}@${domain}">${user}[@]${domain}</a>`;
 </script>
 </body>

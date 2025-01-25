@@ -5,7 +5,7 @@
         </div>
 
         <div class="text-sm pb-2 lg:pb-0">
-            Contact: <span id="email" class="font-bold hover:underline cursor-pointer"></span>
+            Contact: <span id="contactEmail" class="font-bold hover:underline cursor-pointer"></span>
         </div>
 
         <div class="text-sm opacity-75">
