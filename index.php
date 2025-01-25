@@ -22,10 +22,16 @@
     </div>
 
     <script>
+    const homeContact = document.getElementById('homeContact');
     const menuButton = document.getElementById('menuButton');
     const mobileMenu = document.getElementById('mobileMenu');
     const closeMenu = document.getElementById('closeMenu');
     const links = document.querySelectorAll('#navLinks li a');
+
+    homeContact.addEventListener('click', () => {
+        document.querySelector("#navLinks > .home > a").classList.remove('bg-gray-500');
+        document.querySelector("#navLinks > .contact > a").classList.add('bg-gray-500');
+    });
 
     menuButton.addEventListener('click', () => {
         mobileMenu.classList.remove('hidden');

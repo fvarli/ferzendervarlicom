@@ -1,15 +1,15 @@
     <!-- Links -->
     <ul class="space-y-4 p-4 lg:flex-grow" id="navLinks">
-        <li>
+        <li class="home">
             <a href="#home" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Home</a>
         </li>
-        <li>
+        <li class="projects">
             <a href="#projects" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Projects</a>
         </li>
-        <li>
+        <li class="resume">
             <a href="#resume" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Resume</a>
         </li>
-        <li>
+        <li class="contact">
             <a href="#contact" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Contact</a>
         </li>
     </ul>
