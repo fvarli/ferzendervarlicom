@@ -53,6 +53,6 @@ window.addEventListener('hashchange', handleHashChange);
 const user = "contact";
 const domain = "ferzendervarli.com";
 const emailElement = document.getElementById("contactEmail");
-emailElement.innerHTML = `<a href="mailto:${user}@${domain}">${user}[@]${domain}</a>`;
+emailElement.innerHTML = `<a title="Contact Me" href="mailto:${user}@${domain}">${user}[@]${domain}</a>`;
 const emailHomeElement = document.getElementById("contactHomeEmail");
-emailHomeElement.innerHTML = `<a href="mailto:${user}@${domain}" class="bg-teal-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-teal-600 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">Email Me</a>`;
+emailHomeElement.innerHTML = `<a title="Contact Me" href="mailto:${user}@${domain}" class="bg-teal-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-teal-600 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">Email Me</a>`;

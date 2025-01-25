@@ -9,7 +9,7 @@
         </div>
 
         <div class="text-sm opacity-75">
-            Developed by <a href="https://github.com/fvarli" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline">fvarli</a>
+            Developed by <a href="https://github.com/fvarli" title="GitHub" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline">fvarli</a>
         </div>
     </div>
 </footer>

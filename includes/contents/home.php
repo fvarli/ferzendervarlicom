@@ -24,16 +24,16 @@
 
             <div class="flex flex-wrap justify-center gap-4">
                 <span class="flex" id="contactHomeEmail"></span>
-                <a href="https://www.linkedin.com/in/fvarli/" class="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-indigo-700 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/fvarli/" title="LinkedIn" class="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-indigo-700 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>
-                <a href="https://github.com/fvarli" class="bg-gray-700 text-white px-4 py-2 rounded-lg shadow-md hover:bg-gray-800 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/fvarli" title="GitHub" class="bg-gray-700 text-white px-4 py-2 rounded-lg shadow-md hover:bg-gray-800 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">
                     GitHub
                 </a>
             </div>
             <div class="mt-6">
                 <p class="text-gray-500 text-xs sm:text-sm">
-                    Or visit <a href="#projects" class="text-blue-600">my portfolio</a> for more details about my work and experience.
+                    Or visit <a href="#projects" title="Projects" class="text-blue-600">my portfolio</a> for more details about my work and experience.
                 </p>
             </div>
         </div>

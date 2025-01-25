@@ -1,5 +1,5 @@
 <header class="lg:hidden bg-gray-800 text-white p-4 flex justify-between items-center">
-    <a href="/">
+    <a href="/" title="Ferzender Varli Senior Software Developer">
         <p class="text-xl font-bold sm:text-2xl">Ferzender Varli</p>
         <p class="text-sm sm:text-lg font-medium text-center">Senior Software Developer</p>
     </a>
