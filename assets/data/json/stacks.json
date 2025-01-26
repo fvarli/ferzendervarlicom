@@ -1,0 +1,235 @@
+{
+    "Application and Data": [
+        {
+            "name": "Node.js",
+            "logo": "Node.js.png",
+            "level": 3
+        },
+        {
+            "name": "Express",
+            "logo": "Express.png",
+            "level": 3
+        },
+        {
+            "name": "PHP",
+            "logo": "PHP.png",
+            "level": 5
+        },
+        {
+            "name": "Laravel",
+            "logo": "Laravel.png",
+            "level": 4
+        },
+        {
+            "name": "CodeIgniter",
+            "logo": "CodeIgniter.png",
+            "level": 4
+        },
+        {
+            "name": "WordPress",
+            "logo": "WordPress.png",
+            "level": 5
+        },
+        {
+            "name": "HTML5",
+            "logo": "HTML5.png",
+            "level": 4
+        },
+        {
+            "name": "CSS3",
+            "logo": "CSS3.png",
+            "level": 4
+        },
+        {
+            "name": "Bootstrap",
+            "logo": "Bootstrap.png",
+            "level": 4
+        },
+        {
+            "name": "Tailwind CSS",
+            "logo": "TailwindCSS.png",
+            "level": 4
+        },
+        {
+            "name": "jQuery",
+            "logo": "jQuery.png",
+            "level": 5
+        },
+        {
+            "name": "MySQL",
+            "logo": "MySQL.png",
+            "level": 5
+        },
+        {
+            "name": "MongoDB",
+            "logo": "MongoDB.png",
+            "level": 4
+        },
+        {
+            "name": "JavaScript",
+            "logo": "JavaScript.png",
+            "level": 4
+        },
+        {
+            "name": "Composer",
+            "logo": "Composer.png",
+            "level": 4
+        },
+        {
+            "name": "NPM",
+            "logo": "NPM.png",
+            "level": 4
+        },
+        {
+            "name": "RabbitMQ",
+            "logo": "RabbitMQ.png",
+            "level": 4
+        },
+        {
+            "name": "React",
+            "logo": "React.png",
+            "level": 2
+        },
+        {
+            "name": "Next.js",
+            "logo": "Nextjs.png",
+            "level": 2
+        },
+        {
+            "name": "TypeScript",
+            "logo": "TypeScript.png",
+            "level": 1
+        },
+        {
+            "name": "Redis",
+            "logo": "Redis.png",
+            "level": 1
+        },
+        {
+            "name": "Firebase",
+            "logo": "Firebase.png",
+            "level": 2
+        },
+        {
+            "name": "GraphQL",
+            "logo": "GraphQL.png",
+            "level": 2
+        },
+        {
+            "name": "Redux",
+            "logo": "Redux.png",
+            "level": 2
+        },
+        {
+            "name": "Kafka",
+            "logo": "Kafka.png",
+            "level": 1
+        },
+        {
+            "name": "Vue.js",
+            "logo": "Vue.js.png",
+            "level": 2
+        }
+    ],
+    "Utilities": [
+        {
+            "name": "Postman",
+            "logo": "Postman.png",
+            "level": 4
+        },
+        {
+            "name": "Elasticsearch",
+            "logo": "Elasticsearch.png",
+            "level": 1
+        },
+        {
+            "name": "Swagger UI",
+            "logo": "SwaggerUI.png",
+            "level": 3
+        }
+    ],
+    "DevOps": [
+        {
+            "name": "Git",
+            "logo": "Git.png",
+            "level": 5
+        },
+        {
+            "name": "Docker",
+            "logo": "Docker.png",
+            "level": 2
+        },
+        {
+            "name": "AWS",
+            "logo": "AWS.png",
+            "level": 2
+        },
+        {
+            "name": "Google Cloud",
+            "logo": "GoogleCloud.png",
+            "level": 2
+        },
+        {
+            "name": "CI/CD Pipelines",
+            "logo": "CI-CDPipelines.png",
+            "level": 2
+        },
+        {
+            "name": "Kubernetes",
+            "logo": "Kubernetes.png",
+            "level": 1
+        },
+        {
+            "name": "ESLint",
+            "logo": "ESLint.png",
+            "level": 1
+        },
+        {
+            "name": "Terraform",
+            "logo": "Terraform.png",
+            "level": 1
+        },
+        {
+            "name": "Grafana",
+            "logo": "Grafana.png",
+            "level": 1
+        },
+        {
+            "name": "Sentry",
+            "logo": "Sentry.png",
+            "level": 1
+        },
+        {
+            "name": "Azure DevOps",
+            "logo": "AzureDevOps.png",
+            "level": 1
+        },
+        {
+            "name": "TestFlight",
+            "logo": "TestFlight.png",
+            "level": 1
+        }
+    ],
+    "Business Tools": [
+        {
+            "name": "Slack",
+            "logo": "Slack.png",
+            "level": 5
+        },
+        {
+            "name": "Jira",
+            "logo": "Jira.png",
+            "level": 5
+        },
+        {
+            "name": "Trello",
+            "logo": "Trello.png",
+            "level": 5
+        },
+        {
+            "name": "Notion",
+            "logo": "Notion.png",
+            "level": 5
+        }
+    ]
+}
