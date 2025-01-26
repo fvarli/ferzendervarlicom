@@ -108,12 +108,6 @@ For further customization, explore the modular PHP components in the `includes/`
 
 ---
 
-## License
-
-This project is licensed under the MIT License. You are free to use, modify, and distribute the code, but attribution is appreciated.
-
----
-
 ## Connect with Ferzender
 
 - Website: [www.ferzendervarli.com](https://www.ferzendervarli.com/)
@@ -121,3 +115,9 @@ This project is licensed under the MIT License. You are free to use, modify, and
 - LinkedIn: [linkedin.com/in/fvarli](https://www.linkedin.com/in/fvarli)
 - Fiverr: [fiverr.com/f_varli](https://www.fiverr.com/f_varli)
 - Upwork: [upwork.com/~01f9931d59f0daa010](https://www.upwork.com/freelancers/~01f9931d59f0daa010)
+
+---
+
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute the code, but attribution is appreciated.
