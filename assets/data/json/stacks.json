@@ -1,152 +1,183 @@
 {
     "Backend": [
       {
-        "name": "Node.js",
-        "logo": "node-js.png",
-        "level": 3,
-        "tags": ["runtime"]
-      },
-      {
-        "name": "Express",
-        "logo": "express.png",
-        "level": 3,
-        "tags": ["framework"]
-      },
-      {
         "name": "PHP",
         "logo": "php.png",
         "level": 5,
-        "tags": ["programming-language"]
+        "tags": ["programming-language"],
+        "years": 6
       },
       {
         "name": "Laravel",
         "logo": "laravel.png",
         "level": 4,
-        "tags": ["framework"]
+        "tags": ["framework"],
+        "years": 4
       },
       {
         "name": "CodeIgniter",
         "logo": "codeigniter.png",
-        "level": 4,
-        "tags": ["framework"]
+        "level": 5,
+        "tags": ["framework"],
+        "years": 4
+      },
+      {
+        "name": "Node.js",
+        "logo": "node-js.png",
+        "level": 3,
+        "tags": ["runtime"],
+        "years": 2
+      },
+      {
+        "name": "Express",
+        "logo": "express.png",
+        "level": 2,
+        "tags": ["framework"],
+        "years": 2
+      },
+      {
+        "name": "RESTful",
+        "logo": "restful.png",
+        "level": 5,
+        "tags": ["api"],
+        "years": 4
       },
       {
         "name": "GraphQL",
         "logo": "graphql.png",
-        "level": 2,
-        "tags": ["api"]
+        "level": 1,
+        "tags": ["api"],
+        "years": 1
       },
       {
         "name": "RabbitMQ",
         "logo": "rabbitmq.png",
-        "level": 4,
-        "tags": ["message-broker"]
+        "level": 1,
+        "tags": ["message-broker"],
+        "years": 1
       },
       {
         "name": "Kafka",
         "logo": "kafka.png",
-        "level": 1,
-        "tags": ["message-broker"]
+        "level": 0,
+        "tags": ["message-broker"],
+        "years": 0
       }
     ],
     "Frontend": [
-        {
-          "name": "HTML5",
-          "logo": "html5.png",
-          "level": 4,
-          "tags": ["markup"]
-        },
-        {
-          "name": "CSS3",
-          "logo": "css3.png",
-          "level": 4,
-          "tags": ["styling"]
-        },
-        {
-          "name": "Bootstrap",
-          "logo": "bootstrap.png",
-          "level": 4,
-          "tags": ["css-framework"]
-        },
-        {
-          "name": "Tailwind CSS",
-          "logo": "tailwind-css.png",
-          "level": 4,
-          "tags": ["css-framework"]
-        },
-        {
-          "name": "JavaScript",
-          "logo": "javascript.png",
-          "level": 4,
-          "tags": ["programming-language"]
-        },
-        {
-          "name": "React",
-          "logo": "react.png",
-          "level": 2,
-          "tags": ["frontend-framework"]
-        },
-        {
-          "name": "Next.js",
-          "logo": "nextjs.png",
-          "level": 2,
-          "tags": ["frontend-framework", "ssr"]
-        },
-        {
-          "name": "Vue.js",
-          "logo": "vue-js.png",
-          "level": 2,
-          "tags": ["frontend-framework"]
-        },
-        {
-          "name": "Redux",
-          "logo": "redux.png",
-          "level": 2,
-          "tags": ["state-management"]
-        },
-        {
-          "name": "jQuery",
-          "logo": "jquery.png",
-          "level": 5,
-          "tags": ["library"]
-        }
-      ],
+      {
+        "name": "HTML5",
+        "logo": "html5.png",
+        "level": 5,
+        "tags": ["markup"],
+        "years": 6
+      },
+      {
+        "name": "CSS3",
+        "logo": "css3.png",
+        "level": 5,
+        "tags": ["styling"],
+        "years": 6
+      },
+      {
+        "name": "Bootstrap",
+        "logo": "bootstrap.png",
+        "level": 5,
+        "tags": ["css-framework"],
+        "years": 5
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "tailwind-css.png",
+        "level": 3,
+        "tags": ["css-framework"],
+        "years": 2
+      },
+      {
+        "name": "JavaScript",
+        "logo": "javascript.png",
+        "level": 5,
+        "tags": ["programming-language"],
+        "years": 6
+      },
+      {
+        "name": "React",
+        "logo": "react.png",
+        "level": 2,
+        "tags": ["frontend-framework"],
+        "years": 2
+      },
+      {
+        "name": "Next.js",
+        "logo": "nextjs.png",
+        "level": 2,
+        "tags": ["frontend-framework", "ssr"],
+        "years": 1
+      },
+      {
+        "name": "Vue.js",
+        "logo": "vue-js.png",
+        "level": 1,
+        "tags": ["frontend-framework"],
+        "years": 1
+      },
+      {
+        "name": "Redux",
+        "logo": "redux.png",
+        "level": 2,
+        "tags": ["state-management"],
+        "years": 1
+      },
+      {
+        "name": "jQuery",
+        "logo": "jquery.png",
+        "level": 5,
+        "tags": ["library"],
+        "years": 6
+      }
+    ],
     "Databases and Search": [
       {
         "name": "MySQL",
         "logo": "mysql.png",
         "level": 5,
-        "tags": ["relational"]
+        "tags": ["relational"],
+        "years": 6
       },
       {
         "name": "MongoDB",
         "logo": "mongodb.png",
-        "level": 4,
-        "tags": ["nosql"]
+        "level": 3,
+        "tags": ["nosql"],
+        "years": 2
       },
       {
         "name": "PostgreSQL",
         "logo": "postgresql.png",
-        "level": 1,
-        "tags": ["relational", "advanced-queries"]
+        "level": 0,
+        "tags": ["relational", "advanced-queries"],
+        "years": 0
       },
       {
         "name": "SQLite",
-        "logo": "sqlite.png",
-        "level": 3,
-        "tags": ["relational"]
+        "logo": "sqlite.jpeg",
+        "level": 1,
+        "tags": ["relational"],
+        "years": 1
       },
       {
         "name": "Redis",
         "logo": "redis.png",
-        "level": 1,
-        "tags": ["in-memory", "cache", "key-value"]
+        "level": 3,
+        "tags": ["in-memory", "cache", "key-value"],
+        "years": 2
       },
       {
         "name": "Elasticsearch",
         "logo": "elasticsearch.png",
-        "level": 1,
-        "tags": ["search-engine", "analytics"]
+        "level": 0,
+        "tags": ["search-engine", "analytics"],
+        "years": 0
       }
     ],
     "DevOps": [
@@ -154,81 +185,101 @@
         "name": "Git",
         "logo": "git.png",
         "level": 5,
-        "tags": ["version-control"]
+        "tags": ["version-control"],
+        "years": 6
       },
       {
         "name": "Docker",
         "logo": "docker.png",
-        "level": 2,
-        "tags": ["containerization"]
+        "level": 1,
+        "tags": ["containerization"],
+        "years": 1
       },
       {
         "name": "Kubernetes",
         "logo": "kubernetes.png",
-        "level": 1,
-        "tags": ["orchestration"]
+        "level": 0,
+        "tags": ["orchestration"],
+        "years": 0
+      },
+      {
+        "name": "DigitalOcean",
+        "logo": "digitalocean.png",
+        "level": 3,
+        "tags": ["cloud"],
+        "years": 3
       },
       {
         "name": "AWS",
         "logo": "aws.png",
-        "level": 2,
-        "tags": ["cloud"]
+        "level": 1,
+        "tags": ["cloud"],
+        "years": 1
       },
       {
         "name": "Google Cloud",
         "logo": "google-cloud.png",
         "level": 2,
-        "tags": ["cloud"]
+        "tags": ["cloud"],
+        "years": 2
       },
       {
         "name": "Terraform",
         "logo": "terraform.png",
-        "level": 1,
-        "tags": ["iac"]
+        "level": 0,
+        "tags": ["iac"],
+        "years": 0
       },
       {
         "name": "CI/CD Pipelines",
         "logo": "ci-cd-pipelines.png",
-        "level": 2,
-        "tags": ["automation"]
+        "level": 3,
+        "tags": ["automation"],
+        "years": 3
       },
       {
         "name": "Grafana",
         "logo": "grafana.png",
-        "level": 1,
-        "tags": ["monitoring"]
+        "level": 0,
+        "tags": ["monitoring"],
+        "years": 0
       },
       {
         "name": "Sentry",
         "logo": "sentry.png",
         "level": 1,
-        "tags": ["error-tracking"]
+        "tags": ["error-tracking"],
+        "years": 1
       },
       {
         "name": "Azure DevOps",
         "logo": "azure-devops.png",
         "level": 1,
-        "tags": ["cloud", "automation"]
+        "tags": ["cloud", "automation"],
+        "years": 1
       }
     ],
     "Utilities": [
       {
         "name": "Postman",
         "logo": "postman.png",
-        "level": 4,
-        "tags": ["api-testing"]
+        "level": 5,
+        "tags": ["api-testing"],
+        "years": 5
       },
       {
         "name": "Swagger UI",
         "logo": "swagger-ui.png",
-        "level": 3,
-        "tags": ["api-documentation"]
+        "level": 4,
+        "tags": ["api-documentation"],
+        "years": 3
       },
       {
         "name": "ESLint",
         "logo": "eslint.png",
         "level": 0,
-        "tags": ["linting"]
+        "tags": ["linting"],
+        "years": 0
       }
     ],
     "Business Tools": [
@@ -236,25 +287,29 @@
         "name": "Slack",
         "logo": "slack.png",
         "level": 5,
-        "tags": ["communication"]
+        "tags": ["communication"],
+        "years": 5
       },
       {
         "name": "Jira",
         "logo": "jira.png",
         "level": 5,
-        "tags": ["project-management"]
+        "tags": ["project-management"],
+        "years": 5
       },
       {
         "name": "Trello",
         "logo": "trello.png",
         "level": 5,
-        "tags": ["project-management"]
+        "tags": ["project-management"],
+        "years": 5
       },
       {
         "name": "Notion",
         "logo": "notion.png",
         "level": 5,
-        "tags": ["documentation"]
+        "tags": ["documentation"],
+        "years": 3
       }
     ]
   }
