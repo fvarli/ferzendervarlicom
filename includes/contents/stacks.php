@@ -19,7 +19,7 @@ $stacks = json_decode($stacksJson, true);
                     <?php foreach ($items as $item): ?>
                         <div class="bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition">
                             <div class="flex items-center">
-                            <img src="<?php echo $baseUrl . '/assets/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-10 h-10 mr-4">
+                                <img src="<?php echo $baseUrl . '/assets/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-10 h-10 mr-4">
                                 <div>
                                     <div class="text-lg font-semibold text-gray-800"><?php echo htmlspecialchars($item['name']); ?></div>
                                     <div class="flex items-center mt-2">
@@ -27,6 +27,15 @@ $stacks = json_decode($stacksJson, true);
                                             <span class="text-2xl <?php echo $i <= $item['level'] ? 'text-yellow-400' : 'text-gray-300'; ?>">★</span>
                                         <?php endfor; ?>
                                     </div>
+                                    <?php if (isset($item['years'])): ?>
+                                        <div class="mt-2 text-gray-700 font-bold text-sm">
+                                            <?php
+                                                echo $item['years'] == 0
+                                                ? 'No experience'
+                                                : $item['years'] . ' ' . ($item['years'] == 1 ? 'year' : 'years') . ' experience';
+                                            ?>
+                                        </div>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>
