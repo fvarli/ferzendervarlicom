@@ -19,7 +19,7 @@ $stacks = json_decode($stacksJson, true);
                     <?php foreach ($items as $item): ?>
                         <div class="bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition">
                             <div class="flex items-center">
-                                <img src="<?php echo $baseUrl . '/assets/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-10 h-10 mr-4">
+                                <img src="<?php echo $baseUrl . '/assets/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-12 h-10 mr-4">
                                 <div>
                                     <div class="text-lg font-semibold text-gray-800"><?php echo htmlspecialchars($item['name']); ?></div>
                                     <div class="flex items-center mt-2">
