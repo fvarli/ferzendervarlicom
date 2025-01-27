@@ -14,7 +14,7 @@
             <?php include'includes/mobile-sidebar.php'; ?>
 
             <!-- Main Content -->
-            <main class="flex-grow p-6 overflow-y-auto lg:ml-64 bg-gray-100 md:flex md:justify-center">
+            <main class="flex-grow p-6 overflow-y-auto lg:ml-64 bg-gray-100 md:justify-center">
                 <?php include'includes/main.php'; ?>
                 <?php include'includes/footer.php'; ?>
             </main>

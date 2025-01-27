@@ -6,6 +6,9 @@
         <li class="projects">
             <a href="#projects" title="Projects" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Projects</a>
         </li>
+        <li class="stacks">
+            <a href="#stacks" title="Stacks" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Stacks</a>
+        </li>
         <li class="resume">
             <a href="#resume" title="Resume" class="block px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded">Resume</a>
         </li>
@@ -29,7 +32,7 @@
             <svg fill="#000000" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin" class="jam jam-fiverr"><path d='M16.25 16.25v-10h-10v-.625c0-1.034.841-1.875 1.875-1.875H10V0H8.125A5.632 5.632 0 0 0 2.5 5.625v.625H0V10h2.5v6.25H0V20h8.75v-3.75h-2.5V10h6.285v6.25H10V20h8.75v-3.75h-2.5z'/><circle cx='14.375' cy='1.875' r='1.875'/></svg>
             </a>
             <a href="https://www.upwork.com/freelancers/~01f9931d59f0daa010?s=1110580755107926016" target="_blank" aria-label="Upwork" title="Upwork" rel="noopener noreferrer" class="hover:text-gray-400">
-                <img src="assets/images/upwork.svg" style="filter: invert(1)" alt="Upwork" class="w-6 h-6">
+                <img src="assets/images/logos/upwork.svg" style="filter: invert(1)" alt="Upwork" class="w-6 h-6">
             </a>
             <a href="https://x.com/f_varli" target="_blank" aria-label="X" title="X" rel="noopener noreferrer" class="hover:text-gray-400">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 72 72" fill="currentColor">
