@@ -5,7 +5,7 @@
         "name": "PHP",
         "logo": "php.png",
         "level": 5,
-        "tags": ["programming-language"],
+        "tags": ["programming language"],
         "years": 6
       },
       {
@@ -35,34 +35,6 @@
         "level": 2,
         "tags": ["javascript", "node.js", "framework"],
         "years": 2
-      },
-      {
-        "name": "RESTful",
-        "logo": "restful.png",
-        "level": 5,
-        "tags": ["api"],
-        "years": 4
-      },
-      {
-        "name": "GraphQL",
-        "logo": "graphql.png",
-        "level": 1,
-        "tags": ["api"],
-        "years": 1
-      },
-      {
-        "name": "RabbitMQ",
-        "logo": "rabbitmq.jpg",
-        "level": 1,
-        "tags": ["message-broker"],
-        "years": 1
-      },
-      {
-        "name": "Kafka",
-        "logo": "kafka.jpg",
-        "level": 0,
-        "tags": ["message-broker"],
-        "years": 0
       }
     ],
     "Frontend": [
@@ -98,35 +70,35 @@
         "name": "JavaScript",
         "logo": "javascript.png",
         "level": 5,
-        "tags": ["programming-language"],
+        "tags": ["programming language"],
         "years": 6
       },
       {
         "name": "React",
         "logo": "react.png",
         "level": 2,
-        "tags": ["javascript", "frontend-framework"],
+        "tags": ["javascript", "framework"],
         "years": 2
       },
       {
         "name": "Next.js",
         "logo": "nextjs.png",
         "level": 2,
-        "tags": ["javascript", "frontend-framework", "ssr"],
+        "tags": ["javascript", "framework", "ssr"],
         "years": 1
       },
       {
         "name": "Vue.js",
         "logo": "vue-js.png",
         "level": 1,
-        "tags": ["javascript", "frontend-framework"],
+        "tags": ["javascript", "framework"],
         "years": 1
       },
       {
         "name": "Redux",
         "logo": "redux.png",
         "level": 2,
-        "tags": ["javascript", "state-management"],
+        "tags": ["javascript", "library", "state management"],
         "years": 1
       },
       {
@@ -156,7 +128,7 @@
         "name": "PostgreSQL",
         "logo": "postgresql.png",
         "level": 0,
-        "tags": ["database", "relational", "advanced-queries"],
+        "tags": ["database", "relational", "advanced queries"],
         "years": 0
       },
       {
@@ -167,24 +139,31 @@
         "years": 1
       },
       {
+        "name": "GraphQL",
+        "logo": "graphql.png",
+        "level": 1,
+        "tags": ["api"],
+        "years": 1
+      },
+      {
         "name": "Redis",
         "logo": "redis.png",
         "level": 3,
-        "tags": ["in-memory", "cache", "key-value"],
+        "tags": ["in memory", "cache", "key value"],
         "years": 2
       },
       {
         "name": "Elasticsearch",
         "logo": "elasticsearch.png",
         "level": 0,
-        "tags": ["search-engine", "analytics"],
+        "tags": ["search engine", "analytics"],
         "years": 0
       },
       {
         "name": "Firebase",
         "logo": "firebase.jpg",
         "level": 1,
-        "tags": ["nosql", "backend-as-a-service"],
+        "tags": ["nosql", "backend as a service"],
         "years": 1
       }
     ],
@@ -193,7 +172,7 @@
         "name": "Git",
         "logo": "git.png",
         "level": 5,
-        "tags": ["version-control"],
+        "tags": ["version control"],
         "years": 6
       },
       {
@@ -239,24 +218,24 @@
         "years": 0
       },
       {
-        "name": "CI/CD Pipelines",
-        "logo": "ci-cd-pipelines.png",
-        "level": 3,
-        "tags": ["automation"],
-        "years": 3
+        "name": "RabbitMQ",
+        "logo": "rabbitmq.jpg",
+        "level": 1,
+        "tags": ["message broker"],
+        "years": 1
       },
       {
-        "name": "Grafana",
-        "logo": "grafana.jpg",
+        "name": "Kafka",
+        "logo": "kafka.jpg",
         "level": 0,
-        "tags": ["monitoring"],
+        "tags": ["message broker"],
         "years": 0
       },
       {
         "name": "Sentry",
         "logo": "sentry.png",
         "level": 1,
-        "tags": ["error-tracking"],
+        "tags": ["error tracking"],
         "years": 1
       },
       {
@@ -269,18 +248,39 @@
     ],
     "Utilities": [
       {
+        "name": "RESTful",
+        "logo": "restful.png",
+        "level": 5,
+        "tags": ["api"],
+        "years": 4
+      },
+      {
         "name": "Postman",
         "logo": "postman.png",
         "level": 5,
-        "tags": ["api-testing"],
+        "tags": ["api testing"],
         "years": 5
       },
       {
         "name": "Swagger UI",
         "logo": "swagger-ui.png",
         "level": 4,
-        "tags": ["api-documentation"],
+        "tags": ["api documentation"],
         "years": 3
+      },
+      {
+        "name": "CI/CD Pipelines",
+        "logo": "ci-cd-pipelines.png",
+        "level": 3,
+        "tags": ["automation"],
+        "years": 3
+      },
+      {
+        "name": "Grafana",
+        "logo": "grafana.jpg",
+        "level": 0,
+        "tags": ["monitoring"],
+        "years": 0
       },
       {
         "name": "ESLint",
@@ -302,14 +302,14 @@
         "name": "Jira",
         "logo": "jira.jpg",
         "level": 5,
-        "tags": ["project-management"],
+        "tags": ["project management"],
         "years": 5
       },
       {
         "name": "Trello",
         "logo": "trello.png",
         "level": 5,
-        "tags": ["project-management"],
+        "tags": ["project management"],
         "years": 5
       },
       {

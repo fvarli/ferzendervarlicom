@@ -2,7 +2,7 @@
     <!-- Header -->
     <div class="p-4">
         <a href="/" title="Ferzender Varli Senior Software Developer">
-            <h1 class="text-2xl font-bold text-center">Ferzender Varli
+            <h1 class="text-2xl font-bold text-center grid">Ferzender Varli
                 <span class="text-base">Senior Software Developer</span>
             </h1>
         </a>
