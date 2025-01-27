@@ -8,8 +8,16 @@ $stacks = json_decode($stacksJson, true);
 ?>
 <div id="stacks" class="tab-content hidden">
     <div class="px-4 sm:px-6 md:px-8 lg:px-16 pt-10 pb-28 lg:pb-40 max-w-5xl mx-auto">
+        <!-- Introduction Section -->
+        <div class="mb-12 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+            <h4 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-4">My Technology Stacks</h2>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    This section highlights the technologies I have experience with, ranging from those I've mastered over the years to those I've just begun exploring. My aim is to share my progress and aspirations in constantly learning and growing as a developer. While some areas of expertise are still in their early stages, I am fully committed to advancing in these domains and embracing new challenges. Join me as I expand my skills and explore the forefront of technology!
+            </p>
+        </div>
+
+        <!-- Search Box -->
         <div class="mb-6">
-            <!-- Search Box -->
             <input
                 type="text"
                 id="search"
@@ -17,6 +25,8 @@ $stacks = json_decode($stacksJson, true);
                 class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
         </div>
+
+        <!-- Stacks Content -->
         <?php foreach ($stacks as $category => $items): ?>
             <div class="mb-12 category" data-category="<?php echo htmlspecialchars($category); ?>">
                 <div class="flex items-center mb-4">
@@ -44,7 +54,7 @@ $stacks = json_decode($stacksJson, true);
                                         <div class="mt-2 text-gray-700 font-bold text-sm">
                                             <?php
                                                 echo $item['years'] == 0
-                                                ? 'No experience'
+                                                ? 'No experience yet'
                                                 : $item['years'] . ' ' . ($item['years'] == 1 ? 'year' : 'years') . ' experience';
                                             ?>
                                         </div>
