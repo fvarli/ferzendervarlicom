@@ -66,3 +66,37 @@ const emailElement = document.getElementById("contactEmail");
 emailElement.innerHTML = `<a title="Contact Me" href="mailto:${user}@${domain}">${user}[@]${domain}</a>`;
 const emailHomeElement = document.getElementById("contactHomeEmail");
 emailHomeElement.innerHTML = `<a title="Contact Me" href="mailto:${user}@${domain}" class="bg-teal-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-teal-600 text-sm sm:text-base" target="_blank" rel="noopener noreferrer">Email Me</a>`;
+
+document.addEventListener("DOMContentLoaded", () => {
+    const searchInput = document.getElementById("search");
+    const stackItems = document.querySelectorAll(".stack-item");
+
+    searchInput.addEventListener("input", (e) => {
+        const query = e.target.value.toLowerCase();
+
+        stackItems.forEach((item) => {
+            const name = item.dataset.name.toLowerCase();
+            const tags = item.dataset.tags.toLowerCase();
+            const years = item.dataset.years.toLowerCase();
+
+            if (
+                name.includes(query) ||
+                tags.includes(query) ||
+                years.includes(query)
+            ) {
+                item.style.display = "block";
+            } else {
+                item.style.display = "none";
+            }
+        });
+
+        // Category visibility
+        document.querySelectorAll(".category").forEach((category) => {
+            const visibleItems = category.querySelectorAll(
+                ".stack-item[style='display: block;']"
+            ).length;
+
+            category.style.display = visibleItems > 0 ? "block" : "none";
+        });
+    });
+});

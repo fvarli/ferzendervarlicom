@@ -1,3 +1,4 @@
+
 {
     "Backend": [
       {
@@ -9,30 +10,30 @@
       },
       {
         "name": "Laravel",
-        "logo": "laravel.png",
+        "logo": "laravel.jpg",
         "level": 4,
-        "tags": ["framework"],
+        "tags": ["php","framework"],
         "years": 4
       },
       {
         "name": "CodeIgniter",
         "logo": "codeigniter.png",
         "level": 5,
-        "tags": ["framework"],
+        "tags": ["php", "framework"],
         "years": 4
       },
       {
         "name": "Node.js",
         "logo": "node-js.png",
         "level": 3,
-        "tags": ["runtime"],
+        "tags": ["javascript", "runtime"],
         "years": 2
       },
       {
         "name": "Express",
         "logo": "express.png",
         "level": 2,
-        "tags": ["framework"],
+        "tags": ["javascript", "node.js", "framework"],
         "years": 2
       },
       {
@@ -51,14 +52,14 @@
       },
       {
         "name": "RabbitMQ",
-        "logo": "rabbitmq.png",
+        "logo": "rabbitmq.jpg",
         "level": 1,
         "tags": ["message-broker"],
         "years": 1
       },
       {
         "name": "Kafka",
-        "logo": "kafka.png",
+        "logo": "kafka.jpg",
         "level": 0,
         "tags": ["message-broker"],
         "years": 0
@@ -104,35 +105,35 @@
         "name": "React",
         "logo": "react.png",
         "level": 2,
-        "tags": ["frontend-framework"],
+        "tags": ["javascript", "frontend-framework"],
         "years": 2
       },
       {
         "name": "Next.js",
         "logo": "nextjs.png",
         "level": 2,
-        "tags": ["frontend-framework", "ssr"],
+        "tags": ["javascript", "frontend-framework", "ssr"],
         "years": 1
       },
       {
         "name": "Vue.js",
         "logo": "vue-js.png",
         "level": 1,
-        "tags": ["frontend-framework"],
+        "tags": ["javascript", "frontend-framework"],
         "years": 1
       },
       {
         "name": "Redux",
         "logo": "redux.png",
         "level": 2,
-        "tags": ["state-management"],
+        "tags": ["javascript", "state-management"],
         "years": 1
       },
       {
         "name": "jQuery",
-        "logo": "jquery.png",
+        "logo": "jquery.jpg",
         "level": 5,
-        "tags": ["library"],
+        "tags": ["javascript", "library"],
         "years": 6
       }
     ],
@@ -141,7 +142,7 @@
         "name": "MySQL",
         "logo": "mysql.png",
         "level": 5,
-        "tags": ["relational"],
+        "tags": ["database", "relational"],
         "years": 6
       },
       {
@@ -155,14 +156,14 @@
         "name": "PostgreSQL",
         "logo": "postgresql.png",
         "level": 0,
-        "tags": ["relational", "advanced-queries"],
+        "tags": ["database", "relational", "advanced-queries"],
         "years": 0
       },
       {
         "name": "SQLite",
         "logo": "sqlite.jpeg",
         "level": 1,
-        "tags": ["relational"],
+        "tags": ["database", "relational"],
         "years": 1
       },
       {
@@ -178,6 +179,13 @@
         "level": 0,
         "tags": ["search-engine", "analytics"],
         "years": 0
+      },
+      {
+        "name": "Firebase",
+        "logo": "firebase.jpg",
+        "level": 1,
+        "tags": ["nosql", "backend-as-a-service"],
+        "years": 1
       }
     ],
     "DevOps": [
@@ -239,7 +247,7 @@
       },
       {
         "name": "Grafana",
-        "logo": "grafana.png",
+        "logo": "grafana.jpg",
         "level": 0,
         "tags": ["monitoring"],
         "years": 0
@@ -276,7 +284,7 @@
       },
       {
         "name": "ESLint",
-        "logo": "eslint.png",
+        "logo": "eslint.jpg",
         "level": 0,
         "tags": ["linting"],
         "years": 0
@@ -285,14 +293,14 @@
     "Business Tools": [
       {
         "name": "Slack",
-        "logo": "slack.png",
+        "logo": "slack.jpg",
         "level": 5,
         "tags": ["communication"],
         "years": 5
       },
       {
         "name": "Jira",
-        "logo": "jira.png",
+        "logo": "jira.jpg",
         "level": 5,
         "tags": ["project-management"],
         "years": 5
@@ -306,7 +314,7 @@
       },
       {
         "name": "Notion",
-        "logo": "notion.png",
+        "logo": "notion.jpg",
         "level": 5,
         "tags": ["documentation"],
         "years": 3

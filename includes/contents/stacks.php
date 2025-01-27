@@ -6,18 +6,31 @@ $baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "
 $stacksJson = file_get_contents($baseUrl . '/assets/data/json/stacks.json');
 $stacks = json_decode($stacksJson, true);
 ?>
-
 <div id="stacks" class="tab-content hidden">
     <div class="px-4 sm:px-6 md:px-8 lg:px-16 pt-10 pb-28 lg:pb-40 max-w-5xl mx-auto">
+        <div class="mb-6">
+            <!-- Search Box -->
+            <input
+                type="text"
+                id="search"
+                placeholder="Search by name, tags, or experience..."
+                class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+            />
+        </div>
         <?php foreach ($stacks as $category => $items): ?>
-            <div class="mb-12">
+            <div class="mb-12 category" data-category="<?php echo htmlspecialchars($category); ?>">
                 <div class="flex items-center mb-4">
                     <h3 class="text-2xl sm:text-3xl font-bold text-gray-800"><?php echo htmlspecialchars($category); ?></h3>
                     <span class="ml-2 text-gray-500">(<?php echo count($items); ?>)</span>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <?php foreach ($items as $item): ?>
-                        <div class="bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition">
+                        <div
+                            class="stack-item bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition"
+                            data-name="<?php echo htmlspecialchars($item['name']); ?>"
+                            data-tags="<?php echo htmlspecialchars(implode(',', $item['tags'])); ?>"
+                            data-years="<?php echo htmlspecialchars($item['years']); ?>"
+                        >
                             <div class="flex items-center">
                                 <img src="<?php echo $baseUrl . '/assets/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-12 h-10 mr-4">
                                 <div>
@@ -34,6 +47,14 @@ $stacks = json_decode($stacksJson, true);
                                                 ? 'No experience'
                                                 : $item['years'] . ' ' . ($item['years'] == 1 ? 'year' : 'years') . ' experience';
                                             ?>
+                                        </div>
+                                    <?php endif; ?>
+
+                                    <?php if (isset($item['tags'])): ?>
+                                        <div class="mt-4 flex flex-wrap gap-2">
+                                            <?php foreach ($item['tags'] as $tag): ?>
+                                                <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded"><?php echo htmlspecialchars($tag); ?></span>
+                                            <?php endforeach; ?>
                                         </div>
                                     <?php endif; ?>
                                 </div>
