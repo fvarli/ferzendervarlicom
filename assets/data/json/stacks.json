@@ -84,14 +84,14 @@
         "name": "Bootstrap",
         "logo": "bootstrap.png",
         "level": 5,
-        "tags": ["css-library"],
+        "tags": ["css", "library"],
         "years": 5
       },
       {
         "name": "Tailwind CSS",
         "logo": "tailwind-css.png",
         "level": 3,
-        "tags": ["css-framework"],
+        "tags": ["css", "framework"],
         "years": 2
       },
       {
