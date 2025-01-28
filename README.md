@@ -38,11 +38,17 @@ This portfolio website was designed and developed by Ferzender Varli, a Senior S
 
 ```
 └── fvarli-ferzendervarlicom/
+    ├── README.md                     # Project documentation and instructions
+    ├── LICENSE                       # License information for the project
     ├── index.php                     # Main entry point
     ├── assets/
     │   ├── css/
     │   │   └── custom.css            # Custom styles
-    │   ├── images/                   # Static assets (e.g., icons, og-images)
+    │   ├── data/
+    │   │   └── json/
+    │   │       └── stacks.json       # JSON file for technology stacks or related data
+    │   ├── images/
+    │   │   └── logos/                # Directory for logo assets
     │   └── js/
     │       └── main.js               # Main JavaScript file for interactivity
     └── includes/
@@ -56,6 +62,7 @@ This portfolio website was designed and developed by Ferzender Varli, a Senior S
             ├── home.php              # Home tab content
             ├── projects.php          # Projects tab content
             ├── resume.php            # Resume tab content
+            └── stacks.php            # Technology stacks content
 ```
 
 ---
