@@ -25,9 +25,9 @@ This portfolio website was designed and developed by Ferzender Varli, a Senior S
 ## Features
 
 - **Dynamic Content**: Modular structure using PHP includes for reusable components like the header, footer, and navigation.
-- **Responsive Design**: Fully responsive layout optimized for both desktop and mobile devices.
+- **Responsive Design**: Fully responsive layout optimized for both desktop and mobile devices, including a **mobile sidebar**.
 - **Custom Styling**: Tailored CSS for a clean and professional appearance.
-- **Interactive Navigation**: JavaScript-enabled tab-based navigation and mobile menu toggling.
+- **Dynamic Data Management**: JSON files are used to handle dynamic data efficiently.
 - **SEO-Optimized**: Meta tags, Open Graph, and Twitter Cards for better search engine visibility and social sharing.
 - **Social Media Integration**: Links to GitHub, LinkedIn, Fiverr, Upwork, and more.
 - **Dynamic Email Display**: Protects email visibility with JavaScript-generated links.
