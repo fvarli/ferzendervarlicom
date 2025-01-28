@@ -108,11 +108,16 @@ To run this project locally, follow the steps below:
 
 This project is structured to be modular and scalable:
 
-- **Adding Content**: New pages or sections can be added under the `includes/contents/` folder.
-- **Styling**: Modify `assets/css/custom.css` for global styles.
-- **Scripts**: Add new interactive features in `assets/js/main.js`.
-
-For further customization, explore the modular PHP components in the `includes/` directory.
+- **Adding Content**: New pages or sections can be added under the `includes/contents/` folder. Each page uses PHP includes for dynamic and reusable components.
+- **Styling**: Modify `assets/css/custom.css` for global styles or create additional CSS files for specific pages.
+- **Scripts**: Add new interactive features in `assets/js/main.js`. Ensure that custom scripts are clean and modular to maintain readability.
+- **Dynamic Data Management**:  
+  - The `assets/data/json/` folder contains JSON files that manage dynamic content, such as technology stacks (`stacks.json`) or other structured data.
+  - You can edit these JSON files to update content dynamically without modifying the PHP code.
+  - To fetch and render JSON data, the website uses PHP functions that parse JSON into dynamic HTML elements.
+- **Dynamic Navigation**:  
+  - Links and navigation items are centralized in `includes/links.php`.  
+  - Add or remove navigation links here to ensure changes propagate site-wide.
 
 ---
 
