@@ -1,3 +1,8 @@
+<?php
+$careerStart = new DateTimeImmutable('2019-04-29');
+$experienceYears = $careerStart->diff(new DateTimeImmutable('now'))->y;
+?>
+
 <div id="home" class="tab-content hidden">
     <div class="px-4 sm:px-6 md:px-8 lg:px-16 pt-10 pb-28 lg:pb-40">
         <!-- Profile Section -->
@@ -45,7 +50,7 @@
             </h2>
             <div class="bg-white p-6 rounded-lg shadow-md max-w-4xl mx-auto hover:shadow-lg transition">
                 <p class="text-gray-700 leading-relaxed text-base sm:text-lg">
-                    With over 6 years in software development, I specialize in crafting robust web applications using modern frameworks. My journey spans creating seamless user experiences, tackling complex problems, and continuously evolving in the dynamic tech landscape.
+                    With over <?= $experienceYears ?> years in software development, I specialize in crafting robust web applications using modern frameworks. My journey spans creating seamless user experiences, tackling complex problems, and continuously evolving in the dynamic tech landscape.
                 </p>
             </div>
         </div>
