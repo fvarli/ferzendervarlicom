@@ -6,35 +6,40 @@
         "logo": "php.png",
         "level": 5,
         "tags": ["programming language"],
-        "years": 6
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Laravel",
         "logo": "laravel.jpg",
         "level": 4,
         "tags": ["php","framework"],
-        "years": 4
+        "start_year": 2020,
+        "end_year": null
       },
       {
         "name": "CodeIgniter",
         "logo": "codeigniter.png",
         "level": 5,
         "tags": ["php", "framework"],
-        "years": 4
+        "start_year": 2019,
+        "end_year": 2023
       },
       {
         "name": "Node.js",
         "logo": "node-js.png",
         "level": 3,
         "tags": ["javascript", "runtime"],
-        "years": 2
+        "start_year": 2022,
+        "end_year": null
       },
       {
         "name": "Express",
         "logo": "express.png",
         "level": 2,
         "tags": ["javascript", "node.js", "framework"],
-        "years": 2
+        "start_year": 2022,
+        "end_year": 2025
       }
     ],
     "Frontend": [
@@ -43,70 +48,80 @@
         "logo": "html5.png",
         "level": 5,
         "tags": ["markup"],
-        "years": 6
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "CSS3",
         "logo": "css3.png",
         "level": 5,
         "tags": ["styling"],
-        "years": 6
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Bootstrap",
         "logo": "bootstrap.png",
         "level": 5,
         "tags": ["css", "library"],
-        "years": 5
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Tailwind CSS",
         "logo": "tailwind-css.png",
         "level": 3,
         "tags": ["css", "framework"],
-        "years": 2
+        "start_year": 2021,
+        "end_year": null
       },
       {
         "name": "JavaScript",
         "logo": "javascript.png",
         "level": 5,
         "tags": ["programming language"],
-        "years": 6
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "React",
         "logo": "react.png",
         "level": 2,
         "tags": ["javascript", "framework"],
-        "years": 2
+        "start_year": 2022,
+        "end_year": null
       },
       {
         "name": "Next.js",
         "logo": "nextjs.png",
         "level": 2,
         "tags": ["javascript", "framework", "ssr"],
-        "years": 1
+        "start_year": 2023,
+        "end_year": null
       },
       {
         "name": "Vue.js",
         "logo": "vue-js.png",
         "level": 1,
         "tags": ["javascript", "framework"],
-        "years": 1
+        "start_year": 2022,
+        "end_year": null
       },
       {
         "name": "Redux",
         "logo": "redux.png",
         "level": 2,
         "tags": ["javascript", "library", "state management"],
-        "years": 1
+        "start_year": 2023,
+        "end_year": null
       },
       {
         "name": "jQuery",
         "logo": "jquery.jpg",
         "level": 5,
         "tags": ["javascript", "library"],
-        "years": 6
+        "start_year": 2019,
+        "end_year": 2024
       }
     ],
     "Databases and Search": [
@@ -115,56 +130,64 @@
         "logo": "mysql.png",
         "level": 5,
         "tags": ["database", "relational"],
-        "years": 6
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "MongoDB",
         "logo": "mongodb.png",
         "level": 3,
         "tags": ["nosql"],
-        "years": 2
+        "start_year": 2022,
+        "end_year": null
       },
       {
         "name": "PostgreSQL",
         "logo": "postgresql.png",
         "level": 0,
         "tags": ["database", "relational", "advanced queries"],
-        "years": 0
+        "start_year": 2022,
+        "end_year": null
       },
       {
         "name": "SQLite",
         "logo": "sqlite.jpeg",
         "level": 1,
         "tags": ["database", "relational"],
-        "years": 1
+        "start_year": 2022,
+        "end_year": 2024
       },
       {
         "name": "GraphQL",
         "logo": "graphql.png",
         "level": 1,
         "tags": ["api"],
-        "years": 1
+        "start_year": 2024,
+        "end_year": 2025
       },
       {
         "name": "Redis",
         "logo": "redis.png",
         "level": 3,
         "tags": ["in memory", "cache", "key value"],
-        "years": 2
+        "start_year": 2022,
+        "end_year": null
       },
       {
         "name": "Elasticsearch",
         "logo": "elasticsearch.png",
         "level": 0,
         "tags": ["search engine", "analytics"],
-        "years": 0
+        "start_year": 2023,
+        "end_year": null
       },
       {
         "name": "Firebase",
         "logo": "firebase.jpg",
         "level": 1,
         "tags": ["nosql", "backend as a service"],
-        "years": 1
+        "start_year": 2021,
+        "end_year": null
       }
     ],
     "DevOps": [
@@ -173,77 +196,88 @@
         "logo": "git.png",
         "level": 5,
         "tags": ["version control"],
-        "years": 6
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Docker",
         "logo": "docker.png",
         "level": 1,
         "tags": ["containerization"],
-        "years": 1
+        "start_year": 2021,
+        "end_year": null
       },
       {
         "name": "Kubernetes",
         "logo": "kubernetes.png",
         "level": 0,
         "tags": ["orchestration"],
-        "years": 0
+        "start_year": null,
+        "end_year": null
       },
       {
         "name": "DigitalOcean",
         "logo": "digitalocean.png",
         "level": 3,
         "tags": ["cloud"],
-        "years": 3
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "AWS",
         "logo": "aws.png",
         "level": 1,
         "tags": ["cloud"],
-        "years": 1
+        "start_year": 2024,
+        "end_year": null
       },
       {
         "name": "Google Cloud",
         "logo": "google-cloud.png",
         "level": 2,
         "tags": ["cloud"],
-        "years": 2
+        "start_year": 2024,
+        "end_year": null
       },
       {
         "name": "Terraform",
         "logo": "terraform.png",
         "level": 0,
         "tags": ["iac"],
-        "years": 0
+        "start_year": null,
+        "end_year": null
       },
       {
         "name": "RabbitMQ",
         "logo": "rabbitmq.jpg",
         "level": 1,
         "tags": ["message broker"],
-        "years": 1
+        "start_year": null,
+        "end_year": null
       },
       {
         "name": "Kafka",
         "logo": "kafka.jpg",
         "level": 0,
         "tags": ["message broker"],
-        "years": 0
+        "start_year": null,
+        "end_year": null
       },
       {
         "name": "Sentry",
         "logo": "sentry.png",
         "level": 1,
         "tags": ["error tracking"],
-        "years": 1
+        "start_year": 2021,
+        "end_year": null
       },
       {
         "name": "Azure DevOps",
         "logo": "azure-devops.png",
         "level": 1,
         "tags": ["cloud", "automation"],
-        "years": 1
+        "start_year": 2022,
+        "end_year": null
       }
     ],
     "Utilities": [
@@ -252,42 +286,48 @@
         "logo": "restful.png",
         "level": 5,
         "tags": ["api"],
-        "years": 4
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Postman",
         "logo": "postman.png",
         "level": 5,
         "tags": ["api testing"],
-        "years": 5
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Swagger UI",
         "logo": "swagger-ui.png",
         "level": 4,
         "tags": ["api documentation"],
-        "years": 3
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "CI/CD Pipelines",
         "logo": "ci-cd-pipelines.png",
         "level": 3,
         "tags": ["automation"],
-        "years": 3
+        "start_year": 2021,
+        "end_year": null
       },
       {
         "name": "Grafana",
         "logo": "grafana.jpg",
         "level": 0,
         "tags": ["monitoring"],
-        "years": 0
+        "start_year": null,
+        "end_year": null
       },
       {
         "name": "ESLint",
         "logo": "eslint.jpg",
         "level": 0,
         "tags": ["linting"],
-        "years": 0
+        "start_year": 2023,
+        "end_year": null
       }
     ],
     "Business Tools": [
@@ -296,28 +336,32 @@
         "logo": "slack.jpg",
         "level": 5,
         "tags": ["communication"],
-        "years": 5
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Jira",
         "logo": "jira.jpg",
         "level": 5,
         "tags": ["project management"],
-        "years": 5
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Trello",
         "logo": "trello.png",
         "level": 5,
         "tags": ["project management"],
-        "years": 5
+        "start_year": 2019,
+        "end_year": null
       },
       {
         "name": "Notion",
         "logo": "notion.jpg",
         "level": 5,
         "tags": ["documentation"],
-        "years": 3
+        "start_year": 2024,
+        "end_year": null
       }
     ]
   }

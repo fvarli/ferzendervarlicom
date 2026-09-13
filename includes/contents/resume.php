@@ -1,3 +1,8 @@
+<?php
+$careerStart = new DateTimeImmutable('2019-04-29');
+$experienceYears = $careerStart->diff(new DateTimeImmutable('now'))->y;
+?>
+
 <div id="resume" class="tab-content hidden">
     <div class="px-4 sm:px-6 md:px-8 lg:px-16 pt-10 pb-28 lg:pb-40">
         <!-- About Me Section -->
@@ -5,7 +10,7 @@
             <h3 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">About Me</h3>
             <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                 <p class="text-gray-700 text-base sm:text-lg leading-relaxed">
-                    With over 6 years of software development experience and a degree in Mechatronic Engineering, I specialize in backend technologies like PHP (Laravel, CodeIgniter) and Node.js, JavaScript frameworks such as React and Vue.js, and database management with MySQL and MongoDB. I also have extensive experience in customizing CMS platforms like WordPress.
+                    With over <?= $experienceYears ?> years of software development experience and a degree in Mechatronic Engineering, I specialize in backend technologies like PHP (Laravel, CodeIgniter) and Node.js, JavaScript frameworks such as React and Vue.js, and database management with MySQL and MongoDB. I also have extensive experience in customizing CMS platforms like WordPress.
                 </p>
                 <p class="text-gray-700 text-base sm:text-lg leading-relaxed mt-4">
                     I contributed to innovative projects connecting cancer patients with clinical trials, leveraging an AI-driven platform. I led the development of scalable, client-focused software, managed cross-functional teams, and delivered high-quality digital products.
@@ -51,6 +56,18 @@
         <div class="mb-12 max-w-5xl mx-auto">
             <h3 class="text-3xl sm:text-4xl font-bold text-blue-600 mb-6">Experience</h3>
             <div class="space-y-8">
+                <!-- Experience Item -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold text-gray-800">Senior Software Developer</h3>
+                    <p class="text-sm text-blue-500 font-bold">SigortaYeri | July 2025 - Present | Şişli, İstanbul, Turkey</p>
+                    <ul class="mt-4 list-disc pl-5 text-gray-700">
+                        <li>Developed and maintained insurance-focused web applications using PHP, Laravel, and Vue.js, improving application reliability, maintainability, and scalability.</li>
+                        <li>Collaborated with product and engineering teams to deliver domain-specific insurance features and streamline customer-facing workflows.</li>
+                        <li>Integrated and maintained RESTful APIs while improving frontend performance and overall user experience.</li>
+                        <li>Applied Git-based development workflows, code review practices, and Agile methodologies to support iterative delivery and reliable deployments.</li>
+                    </ul>
+                </div>
+
                 <!-- Experience Item -->
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
                     <h3 class="text-lg font-semibold text-gray-800">Senior Software Developer</h3>

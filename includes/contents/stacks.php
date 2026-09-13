@@ -5,6 +5,7 @@ $baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "
 // Load the JSON data
 $stacksJson = file_get_contents($baseUrl . '/assets/data/json/stacks.json');
 $stacks = json_decode($stacksJson, true);
+$currentYear = (int) date('Y');
 ?>
 <div id="stacks" class="tab-content hidden">
     <div class="px-4 sm:px-6 md:px-8 lg:px-16 pt-10 pb-28 lg:pb-40 max-w-5xl mx-auto">
@@ -35,11 +36,24 @@ $stacks = json_decode($stacksJson, true);
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <?php foreach ($items as $item): ?>
+                        <?php
+                            $startYear = $item['start_year'] ?? null;
+                            $endYear = $item['end_year'] ?? null;
+                            $experienceYears = 0;
+
+                            if (is_int($startYear)) {
+                                if ($endYear === null) {
+                                    $experienceYears = max(0, $currentYear - $startYear);
+                                } elseif (is_int($endYear) && $endYear >= $startYear) {
+                                    $experienceYears = $endYear - $startYear;
+                                }
+                            }
+                        ?>
                         <div
                             class="stack-item bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition"
                             data-name="<?php echo htmlspecialchars($item['name']); ?>"
                             data-tags="<?php echo htmlspecialchars(implode(',', $item['tags'])); ?>"
-                            data-years="<?php echo htmlspecialchars($item['years']); ?>"
+                            data-years="<?php echo htmlspecialchars((string) $experienceYears); ?>"
                         >
                             <div class="flex items-center">
                                 <img src="<?php echo $baseUrl . '/assets/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-12 h-10 mr-4">
@@ -50,15 +64,13 @@ $stacks = json_decode($stacksJson, true);
                                             <span class="text-2xl <?php echo $i <= $item['level'] ? 'text-yellow-400' : 'text-gray-300'; ?>">★</span>
                                         <?php endfor; ?>
                                     </div>
-                                    <?php if (isset($item['years'])): ?>
-                                        <div class="mt-2 text-gray-700 font-bold text-sm">
-                                            <?php
-                                                echo $item['years'] == 0
-                                                ? 'No experience yet'
-                                                : $item['years'] . ' ' . ($item['years'] == 1 ? 'year' : 'years') . ' experience';
-                                            ?>
-                                        </div>
-                                    <?php endif; ?>
+                                    <div class="mt-2 text-gray-700 font-bold text-sm">
+                                        <?php
+                                            echo $experienceYears === 0
+                                            ? 'No experience yet'
+                                            : $experienceYears . ' ' . ($experienceYears === 1 ? 'year' : 'years') . ' experience';
+                                        ?>
+                                    </div>
 
                                     <?php if (isset($item['tags'])): ?>
                                         <div class="mt-4 flex flex-wrap gap-2">
