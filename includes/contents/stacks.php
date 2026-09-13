@@ -2,9 +2,18 @@
 // Get the base URL
 $baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 
-// Load the JSON data
-$stacksJson = file_get_contents($baseUrl . '/assets/data/json/stacks.json');
-$stacks = json_decode($stacksJson, true);
+// Load the JSON data from the filesystem
+$stacks = [];
+$stacksPath = __DIR__ . '/../../assets/data/json/stacks.json';
+
+if (is_readable($stacksPath)) {
+    $stacksJson = file_get_contents($stacksPath);
+    $decodedStacks = json_decode($stacksJson, true);
+
+    if (is_array($decodedStacks)) {
+        $stacks = $decodedStacks;
+    }
+}
 $currentYear = (int) date('Y');
 ?>
 <div id="stacks" class="tab-content hidden">
