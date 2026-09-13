@@ -2,6 +2,13 @@
 // Get the base URL
 $baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 
+// Resolve the public assets base URL for both WordPress and standalone PHP
+if (function_exists('get_template_directory_uri')) {
+    $assetsBaseUrl = rtrim(get_template_directory_uri(), '/') . '/my-custom-website/assets';
+} else {
+    $assetsBaseUrl = $baseUrl . '/assets';
+}
+
 // Load the JSON data from the filesystem
 $stacks = [];
 $stacksPath = __DIR__ . '/../../assets/data/json/stacks.json';
@@ -65,7 +72,7 @@ $currentYear = (int) date('Y');
                             data-years="<?php echo htmlspecialchars((string) $experienceYears); ?>"
                         >
                             <div class="flex items-center">
-                                <img src="<?php echo $baseUrl . '/assets/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-12 h-10 mr-4">
+                                <img src="<?php echo $assetsBaseUrl . '/images/logos/' . htmlspecialchars($item['logo']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>" class="w-12 h-10 mr-4">
                                 <div>
                                     <div class="text-lg font-semibold text-gray-800"><?php echo htmlspecialchars($item['name']); ?></div>
                                     <div class="flex items-center mt-2">
