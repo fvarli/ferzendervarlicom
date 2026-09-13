@@ -64,6 +64,8 @@ $currentYear = (int) date('Y');
                                     $experienceYears = $endYear - $startYear;
                                 }
                             }
+
+                            $starCount = min(5, max(0, $experienceYears));
                         ?>
                         <div
                             class="stack-item bg-white shadow-md p-6 rounded-lg hover:shadow-lg transition"
@@ -77,7 +79,7 @@ $currentYear = (int) date('Y');
                                     <div class="text-lg font-semibold text-gray-800"><?php echo htmlspecialchars($item['name']); ?></div>
                                     <div class="flex items-center mt-2">
                                         <?php for ($i = 1; $i <= 5; $i++): ?>
-                                            <span class="text-2xl <?php echo $i <= $item['level'] ? 'text-yellow-400' : 'text-gray-300'; ?>">★</span>
+                                            <span class="text-2xl <?php echo $i <= $starCount ? 'text-yellow-400' : 'text-gray-300'; ?>">★</span>
                                         <?php endfor; ?>
                                     </div>
                                     <div class="mt-2 text-gray-700 font-bold text-sm">
